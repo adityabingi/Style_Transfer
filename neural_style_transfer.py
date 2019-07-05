@@ -23,7 +23,7 @@ class Config:
     
     # Weighting factors for content and style
     CONTENT_LOSS_WEIGHT = 1e3
-    STYLE_LOSS_WEIGHT   = 1e-1
+    STYLE_LOSS_WEIGHT   = 1e
     
     # Layers used for content extraction
     CONTENT_LAYERS = ['block4_conv2']
